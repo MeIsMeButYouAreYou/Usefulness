@@ -1,0 +1,16 @@
+if(self sprintbuttonpressed()) self iprintln("SPRINT"); //[{+breath_sprint}]
+if(self inventorybuttonpressed()) self iprintln("INVENTORY"); //button == "[{weapnext}]"
+if(self secondaryoffhandbuttonpressed()) self iprintln("SECONDARY OFFHAND"); //button == "[{+smoke}]"
+if(self fragbuttonpressed()) self iprintln("FRAG"); //button == "[{+frag}]"
+if(self stancebuttonpressed()) self iprintln("STANCE"); //button == "[{+stance}]"
+if(self jumpbuttonpressed()) self iprintln("JUMP"); //button == "[{+gostand}]"
+if(self meleebuttonpressed()) self iprintln("MELEE"); //button == "[{+melee}]"
+if(self throwbuttonpressed()) self iprintln("THROW"); //????
+if(self adsbuttonpressed()) self iprintln("ADS"); //button == "[{+speed_throw}]"
+if(self actionslotfourbuttonpressed()) self iprintln("ACTION SLOT FOUR"); //button == "[{+actionslot 4}]"
+if(self actionslotthreebuttonpressed()) self iprintln("ACTION SLOT THREE"); //button == "[{+actionslot 3}]"
+if(self actionslottwobuttonpressed()) self iprintln("ACTION SLOT TWO"); //button == "[{+actionslot 2}]"
+if(self actionslotonebuttonpressed()) self iprintln("ACTION SLOT ONE"); ////button == "[{+actionslot 1}]"
+if(self attackbuttonpressed()) self iprintln("ATTACK"); //button == "[{+attack}]"
+if(self changeseatbuttonpressed()) self iprintln("CHANGE SEAT"); //????
+if(self usebuttonpressed()) self iprintln("USE"); //button == "[{+usereload}]"
